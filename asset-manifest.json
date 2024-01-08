@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/figma-food-delivery-webapp/static/css/main.45aa2542.css",
+    "main.js": "/figma-food-delivery-webapp/static/js/main.4cd85a05.js",
+    "static/js/787.51cc0e12.chunk.js": "/figma-food-delivery-webapp/static/js/787.51cc0e12.chunk.js",
+    "static/media/pizza.png": "/figma-food-delivery-webapp/static/media/pizza.e3a3f59c6b4c8f78a18e.png",
+    "static/media/about.png": "/figma-food-delivery-webapp/static/media/about.f02ecb0f049d18b71620.png",
+    "static/media/snaks.png": "/figma-food-delivery-webapp/static/media/snaks.fde3e79ee49420110104.png",
+    "static/media/tomato.png": "/figma-food-delivery-webapp/static/media/tomato.5cfa6ff837658db6be07.png",
+    "static/media/corn.png": "/figma-food-delivery-webapp/static/media/corn.dd5f73e34d10382d2472.png",
+    "static/media/crunchwrap.png": "/figma-food-delivery-webapp/static/media/crunchwrap.f09a7b0e67b3505cbd8f.png",
+    "static/media/workout.png": "/figma-food-delivery-webapp/static/media/workout.e42b0ef16ea1578acfb6.png",
+    "static/media/broccoli.png": "/figma-food-delivery-webapp/static/media/broccoli.cdf354912ad77212f930.png",
+    "static/media/logo.svg": "/figma-food-delivery-webapp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/figma-food-delivery-webapp/index.html",
+    "main.45aa2542.css.map": "/figma-food-delivery-webapp/static/css/main.45aa2542.css.map",
+    "main.4cd85a05.js.map": "/figma-food-delivery-webapp/static/js/main.4cd85a05.js.map",
+    "787.51cc0e12.chunk.js.map": "/figma-food-delivery-webapp/static/js/787.51cc0e12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45aa2542.css",
+    "static/js/main.4cd85a05.js"
+  ]
+}
