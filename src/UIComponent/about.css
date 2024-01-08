@@ -1,0 +1,84 @@
+
+
+.about{
+    width: 1440px;
+    height: 467px;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+}
+.aboutImage{
+    padding-left: 205px;
+
+}
+
+.aboutLableWrapper{
+    padding-left: 200px;
+    width: 447px;
+}
+
+div.about > div > div.button {
+    width: fit-content;
+    padding: 14px 24px;
+    border-radius: 34px;
+    background: #E23744;
+}
+div.about > div > div.button > div.exploreButton{
+    width: 121px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    /* line-height: 36px; */
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.aboutHeader {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0E2368;
+    width: 422px;
+    height: 26px;
+}
+.aboutSubjectContent {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #444957;
+    width: 447px;
+    height: 138px;
+    padding-bottom: 21px;
+    padding-top: 21px;
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutImage{
+        display: none;
+    }
+    .about{
+        height: auto !important;
+        width: auto !important;
+        background:none !important;
+    }
+    .aboutLableWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .aboutHeader {
+        text-align: center;
+    }
+    .aboutSubjectContent {
+        text-align: center;
+    }
+}

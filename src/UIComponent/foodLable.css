@@ -1,0 +1,105 @@
+
+div.foodLableRoot {
+    padding: 5px; 
+    width: 100%; 
+    height: 100%;
+    position: relative;
+}
+div.foodLableRoot > div.logo {
+    width: 107px;
+    height: 83px; 
+    padding-top: 33px; 
+    padding-left: 100px ;
+}
+div.foodLableRoot > .foodLable {
+    width: 345px;
+    height: 207px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: Source Sans Pro;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+div.foodLableRoot > .foodSmallLable{
+    width: 345px;
+    height: 55px;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #444957;
+}
+div.foodLableRoot > div.button {
+    width: 190px ;
+    height: 63px;
+   padding-top: 20px;
+  padding-left: 97px;
+    gap: 7px;
+}
+div.foodLableRoot > div.button > div.exploreButton{
+    border-radius: 34px;
+    background: #E23744;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+@media only screen and (max-width: 900px) {
+    div.foodLableRoot > div.logo {
+        display: none;
+    }
+    div.foodLableRoot {
+        padding: 5px; 
+        width: auto !important; 
+        height: auto !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.foodLableRoot > .foodLable {
+        width: 345px;
+        height: 207px;
+        padding-top: 100px;
+        padding-left: 0px;
+        font-family: Source Sans Pro;
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 69px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    div.foodLableRoot > .foodSmallLable{
+        width: 345px;
+        height: 55px;
+        padding-top: 20px;
+        padding-left: 0px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #444957;
+    }
+    div.foodLableRoot > div.button {
+        width: 190px ;
+        height: 63px;
+       padding-top: 20px;
+      padding-left: 0px;
+    }
+    div.foodLableRoot > div.button > div.exploreButton{
+        line-height: 56px;
+     }
+}
